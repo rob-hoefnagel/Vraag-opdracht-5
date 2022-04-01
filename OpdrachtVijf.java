@@ -20,7 +20,7 @@ public class OpdrachtVijf {
 }
 
     class Monteur {
-        public void Monteur(Auto){
+        public void repareren(Auto){
 
     }
 
