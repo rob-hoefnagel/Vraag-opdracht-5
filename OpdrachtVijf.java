@@ -10,17 +10,24 @@ De toString methode toont je welke onderdelen kapot en niet kapot zijn. Het gaat
 De monteur loopt deze booleans af en repareert ze.
 Het repareren heeft een prijs: elk onderdeel dat is gerepareerd kost 25 euro extra.*/
 
-class Monteur {
+//3 classes. monteur heeft extra methode met als argument een parameter heeft van het type auto
+
+public class OpdrachtVijf {
     public static void main(String[] args) {
-        Auto auto1 = new Auto(true, false, true, false);
 
     }
 
 }
 
-class  Auto {
-    public Auto(boolean motor, boolean deur, boolean voorruit, boolean uitlaat){
-
+    class Monteur {
+        public void Monteur(Auto){
 
     }
+
 }
+    class  Auto {
+        public void Auto(boolean motor, boolean deur, boolean voorruit, boolean uitlaat) {
+
+
+        }
+    }
